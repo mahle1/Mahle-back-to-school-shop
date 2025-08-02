@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/mahle.shop/Image/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #333;
+}
+
+#logo {
+  display: block;
+  max-height: 100px;
+  margin: 0 auto 10px auto;
+  border-radius: 12px;
+}
+
+#cart-container {
+  background-color: #ffffff;
+  color: blue;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  border-bottom: 2px solid blue;
+}
+
+header {
+  background-color: #4db6ac;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.banner {
+  text-align: center;
+  padding: 20px;
+  background-color: #e0f2f1;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.product button {
+  margin-top: 10px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.section {
+  padding: 30px;
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #4db6ac;
+  color: white;
+}
